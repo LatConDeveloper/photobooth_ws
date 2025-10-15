@@ -2,6 +2,8 @@
 
 Full-stack PhotoBooth kiosk application with React Native CLI (no Expo) and Hono backend.
 
+> **📊 Code Review Available:** A comprehensive code review has been completed. See [CODE_REVIEW_README.md](CODE_REVIEW_README.md) for findings, recommendations, and implementation guides.
+
 ## 📋 Project Structure
 
 ```
@@ -180,11 +182,18 @@ curl http://localhost:8787/health
 
 ## 📚 Documentation
 
+### Project Documentation
 - [instructions.md](docs/instructions.md) - Architecture decisions & stack
 - [user_stories.md](docs/user_stories.md) - Features & acceptance criteria
 - [prompt_agente.md](docs/prompt_agente.md) - Implementation plan
 - [server/README.md](server/README.md) - Backend API documentation
 - [app-mobile/README.md](app-mobile/README.md) - Mobile app guide
+
+### Code Review & Best Practices
+- **[CODE_REVIEW_README.md](CODE_REVIEW_README.md)** - Overview of review documents
+- [CODE_REVIEW_SUMMARY.md](CODE_REVIEW_SUMMARY.md) - Executive summary (start here)
+- [BEST_PRACTICES_REVIEW.md](BEST_PRACTICES_REVIEW.md) - Detailed analysis
+- [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md) - Code examples & setup
 
 ## 🔐 Security Notes
 
